@@ -1,0 +1,956 @@
+{
+  "levelObject": [
+    {
+      "sectionObject": [
+        {
+          "length": 25,
+          "time": 10,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 300,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 350,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 400,
+              "y": 600,
+              "type": "simple"
+            }
+          ],
+          "enemyObject": [
+          ],
+          "pipeObject": [
+            {
+              "time": 0,
+              "plant": {
+                "show": false,
+                "x": 625,
+                "y": 650,
+                "type": "plant",
+                "live": true
+              },
+              "x": 600,
+              "y": 700,
+              "type": "plant"
+            }
+          ],
+          "hollow": {
+            "x": 1400,
+            "y": 800
+          },
+          "itemObject": [
+            {
+              "show": true,
+              "x": 350,
+              "y": 550,
+              "type": "coin"
+            },
+            {
+              "show": true,
+              "x": 1000,
+              "y": 750,
+              "type": "coin"
+            }
+          ]
+        },
+        {
+          "length": 30,
+          "time": 10,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 700,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 750,
+              "y": 600,
+              "type": "empty"
+            },
+            {
+              "show": true,
+              "x": 800,
+              "y": 600,
+              "type": "have coin"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "x": 200,
+              "y": 750,
+              "type": "goomba",
+              "live": true
+            }
+          ],
+          "pipeObject": [
+            {
+              "x": 1000,
+              "y": 600,
+              "type": "simple"
+            }
+          ],
+          "itemObject": [
+            {
+              "show": true,
+              "x": 700,
+              "y": 550,
+              "type": "coin"
+            },
+            {
+              "show": true,
+              "x": 1025,
+              "y": 550,
+              "type": "coin"
+            }
+          ]
+        },
+        {
+          "length": 25,
+          "time": 10,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 500,
+              "y": 600,
+              "type": "slime"
+            },
+            {
+              "knock": 0,
+              "show": true,
+              "x": 550,
+              "y": 600,
+              "type": "lot coin"
+            },
+            {
+              "show": true,
+              "x": 600,
+              "y": 600,
+              "type": "simple"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "time": 0,
+              "x": 200,
+              "y": 750,
+              "type": "koopa",
+              "live": true
+            }
+          ],
+          "spawnPipe": {
+            "x": 1000,
+            "y": 600,
+            "type": "spawn",
+            "enter": true
+          },
+          "hollow": {
+            "x": 1300,
+            "y": 800
+          },
+          "itemObject": [
+            {
+              "show": true,
+              "x": 550,
+              "y": 550,
+              "type": "coin"
+            },
+            {
+              "show": true,
+              "x": 1600,
+              "y": 750,
+              "type": "coin"
+            }
+          ]
+        },
+        {
+          "length": 35,
+          "time": 10,
+          "blockObject": [
+            {
+              "knock": 0,
+              "show": true,
+              "x": 300,
+              "y": 600,
+              "type": "award"
+            },
+            {
+              "knock": 0,
+              "show": true,
+              "x": 350,
+              "y": 600,
+              "type": "lot coin"
+            },
+            {
+              "show": true,
+              "x": 400,
+              "y": 600,
+              "type": "simple"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "acceleration": 1,
+              "vx": 0,
+              "x": 1000,
+              "y": 750,
+              "type": "spiny",
+              "live": true
+            }
+          ],
+          "itemObject": [
+            {
+              "show": false,
+              "x": 300,
+              "y": 550,
+              "type": "flower"
+            },
+            {
+              "show": true,
+              "x": 1600,
+              "y": 750,
+              "type": "coin"
+            }
+          ]
+        },
+        {
+          "length": 20,
+          "time": 10,
+          "blockObject": [
+            {
+              "knock": 0,
+              "show": true,
+              "x": 1200,
+              "y": 600,
+              "type": "award"
+            },
+            {
+              "show": true,
+              "x": 1250,
+              "y": 600,
+              "type": "empty"
+            },
+            {
+              "show": true,
+              "x": 1300,
+              "y": 600,
+              "type": "have coin"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "time": 0,
+              "x": 1400,
+              "y": 550,
+              "type": "bird",
+              "live": true
+            }
+          ],
+          "itemObject": [
+            {
+              "show": false,
+              "time": 0,
+              "x": 1200,
+              "y": 550,
+              "type": "mushroom"
+            },
+            {
+              "show": true,
+              "x": 500,
+              "y": 750,
+              "type": "coin"
+            }
+          ]
+        }
+      ],
+      "whichSection": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "checkPointObject": {
+        "x": 400,
+        "y": 500,
+        "whichSection": 3,
+        "live": true,
+        "isSave": false
+      }
+    },
+    {
+      "sectionObject": [
+        {
+          "length": 15,
+          "time": 10,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 1400,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 1450,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 1500,
+              "y": 600,
+              "type": "empty"
+            }
+          ],
+          "enemyObject": [
+          ],
+          "pipeObject": [
+            {
+              "time": 0,
+              "plant": {
+                "show": false,
+                "x": 425,
+                "y": 650,
+                "type": "plant",
+                "live": true
+              },
+              "x": 400,
+              "y": 700,
+              "type": "plant"
+            }
+          ],
+          "spawnPipe": {
+            "x": 900,
+            "y": 600,
+            "type": "spawn",
+            "enter": true
+          },
+          "itemObject": [
+            {
+              "show": true,
+              "x": 1400,
+              "y": 550,
+              "type": "coin"
+            },
+            {
+              "show": true,
+              "x": 700,
+              "y": 750,
+              "type": "coin"
+            }
+          ]
+        },
+        {
+          "length": 25,
+          "time": 10,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 300,
+              "y": 600,
+              "type": "have coin"
+            },
+            {
+              "show": true,
+              "x": 350,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 400,
+              "y": 600,
+              "type": "slime"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "time": 0,
+              "x": 900,
+              "y": 750,
+              "type": "koopa",
+              "live": true
+            }
+          ],
+          "pipeObject": [
+            {
+              "x": 1600,
+              "y": 600,
+              "type": "simple"
+            }
+          ],
+          "itemObject": [
+            {
+              "show": true,
+              "x": 350,
+              "y": 550,
+              "type": "coin"
+            },
+            {
+              "show": true,
+              "x": 1000,
+              "y": 750,
+              "type": "coin"
+            }
+          ]
+        },
+        {
+          "length": 30,
+          "time": 10,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 500,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 650,
+              "y": 600,
+              "type": "empty"
+            },
+            {
+              "knock": 0,
+              "show": true,
+              "x": 800,
+              "y": 600,
+              "type": "award"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "time": 0,
+              "x": 900,
+              "y": 550,
+              "type": "bird",
+              "live": true
+            }
+          ],
+          "hollow": {
+            "x": 500,
+            "y": 800
+          },
+          "itemObject": [
+            {
+              "show": false,
+              "moveTime": 0,
+              "jumpTime": 0,
+              "x": 800,
+              "y": 550,
+              "type": "star"
+            },
+            {
+              "show": true,
+              "x": 1000,
+              "y": 750,
+              "type": "coin"
+            }
+          ]
+        },
+        {
+          "length": 10,
+          "time": 10,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 900,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "knock": 0,
+              "show": true,
+              "x": 950,
+              "y": 600,
+              "type": "lot coin"
+            },
+            {
+              "show": true,
+              "x": 1000,
+              "y": 600,
+              "type": "have coin"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "acceleration": 1,
+              "vx": 0,
+              "x": 500,
+              "y": 750,
+              "type": "spiny",
+              "live": true
+            }
+          ],
+          "itemObject": [
+            {
+              "show": true,
+              "x": 1000,
+              "y": 550,
+              "type": "coin"
+            },
+            {
+              "show": true,
+              "x": 1000,
+              "y": 750,
+              "type": "coin"
+            }
+          ]
+        },
+        {
+          "length": 25,
+          "time": 10,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 1600,
+              "y": 600,
+              "type": "empty"
+            },
+            {
+              "show": true,
+              "x": 1650,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 1700,
+              "y": 600,
+              "type": "empty"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "x": 200,
+              "y": 750,
+              "type": "goomba",
+              "live": true
+            }
+          ],
+          "itemObject": [
+            {
+              "show": true,
+              "x": 1600,
+              "y": 550,
+              "type": "coin"
+            },
+            {
+              "show": true,
+              "x": 1000,
+              "y": 750,
+              "type": "coin"
+            }
+          ]
+        }
+      ],
+      "whichSection": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "checkPointObject": {
+        "x": 900,
+        "y": 500,
+        "whichSection": 3,
+        "live": true,
+        "isSave": false
+      }
+    },
+    {
+      "sectionObject": [
+        {
+          "length": 26,
+          "time": 100,
+          "blockObject": [
+            {
+              "knock": 0,
+              "show": true,
+              "x": 450,
+              "y": 600,
+              "type": "award"
+            },
+            {
+              "knock": 0,
+              "show": true,
+              "x": 570,
+              "y": 600,
+              "type": "award"
+            },
+            {
+              "show": true,
+              "x": 690,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 810,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 1200,
+              "y": 600,
+              "type": "simple"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "x": 500,
+              "y": 650,
+              "type": "goomba",
+              "live": true
+            },
+            {
+              "direction": 1,
+              "time": 0,
+              "x": 1200,
+              "y": 550,
+              "type": "koopa",
+              "live": true
+            }
+          ],
+          "pipeObject": [
+            {
+              "x": 300,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "time": 0,
+              "plant": {
+                "show": false,
+                "x": 1025,
+                "y": 650,
+                "type": "plant",
+                "live": true
+              },
+              "x": 1000,
+              "y": 700,
+              "type": "plant"
+            }
+          ],
+          "itemObject": [
+            {
+              "show": false,
+              "x": 450,
+              "y": 550,
+              "type": "coin"
+            },
+            {
+              "show": false,
+              "moveTime": 0,
+              "jumpTime": 0,
+              "x": 570,
+              "y": 550,
+              "type": "star"
+            }
+          ]
+        },
+        {
+          "length": 25,
+          "time": 50,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 500,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 550,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "knock": 0,
+              "show": true,
+              "x": 600,
+              "y": 600,
+              "type": "award"
+            },
+            {
+              "knock": 0,
+              "show": true,
+              "x": 750,
+              "y": 600,
+              "type": "award"
+            },
+            {
+              "show": true,
+              "x": 1100,
+              "y": 400,
+              "type": "simple"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "x": 500,
+              "y": 650,
+              "type": "goomba",
+              "live": true
+            },
+            {
+              "direction": 1,
+              "time": 0,
+              "x": 1100,
+              "y": 350,
+              "type": "koopa",
+              "live": true
+            }
+          ],
+          "pipeObject": [
+            {
+              "x": 1000,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "time": 0,
+              "plant": {
+                "show": false,
+                "x": 1625,
+                "y": 650,
+                "type": "plant",
+                "live": true
+              },
+              "x": 1600,
+              "y": 700,
+              "type": "plant"
+            }
+          ],
+          "spawnPipe": {
+            "x": 300,
+            "y": 600,
+            "type": "spawn",
+            "enter": true
+          },
+          "itemObject": [
+            {
+              "show": false,
+              "x": 600,
+              "y": 550,
+              "type": "coin"
+            },
+            {
+              "show": false,
+              "time": 0,
+              "x": 750,
+              "y": 550,
+              "type": "star"
+            }
+          ]
+        },
+        {
+          "length": 23,
+          "time": 80,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 200,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 250,
+              "y": 600,
+              "type": "simple"
+            },
+            {
+              "knock": 0,
+              "show": true,
+              "x": 300,
+              "y": 600,
+              "type": "award"
+            },
+            {
+              "show": true,
+              "x": 350,
+              "y": 450,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 450,
+              "y": 450,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 600,
+              "y": 450,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 650,
+              "y": 450,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 700,
+              "y": 450,
+              "type": "simple"
+            }
+          ],
+          "enemyObject": [
+            {
+              "direction": 1,
+              "x": 200,
+              "y": 550,
+              "type": "goomba",
+              "live": true
+            },
+            {
+              "direction": 1,
+              "time": 0,
+              "x": 350,
+              "y": 400,
+              "type": "goomba",
+              "live": true
+            },
+            {
+              "direction": 1,
+              "acceleration": 1,
+              "vx": 0,
+              "x": 700,
+              "y": 400,
+              "type": "spiny",
+              "live": true
+            }
+          ],
+          "pipeObject": [
+            {
+              "time": 0,
+              "plant": {
+                "show": false,
+                "x": 1525,
+                "y": 650,
+                "type": "plant",
+                "live": true
+              },
+              "x": 1500,
+              "y": 700,
+              "type": "plant"
+            }
+          ],
+          "itemObject": [
+            {
+              "show": false,
+              "x": 300,
+              "y": 550,
+              "type": "coin"
+            }
+          ]
+        },
+        {
+          "length": 25,
+          "time": 1000,
+          "blockObject": [
+            {
+              "show": true,
+              "x": 100,
+              "y": 650,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 150,
+              "y": 650,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 200,
+              "y": 650,
+              "type": "simple"
+            },
+            {
+              "show": true,
+              "x": 250,
+              "y": 650,
+              "type": "simple"
+            },
+            {
+              "knock": 0,
+              "show": true,
+              "x": 350,
+              "y": 500,
+              "type": "award"
+            },
+            {
+              "show": true,
+              "x": 1050,
+              "y": 650,
+              "type": "simple"
+            }
+          ],
+          "enemyObject": [
+            {
+              "x": 0,
+              "y": 750,
+              "type": "Bowser",
+              "live": false
+            }
+          ],
+          "itemObject": [
+            {
+              "show": false,
+              "x": 350,
+              "y": 450,
+              "type": "star"
+            }
+          ]
+        }
+      ],
+      "whichSection": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "checkPointObject": {
+        "x": 200,
+        "y": 500,
+        "whichSection": 2,
+        "live": true,
+        "isSave": false
+      }
+    }
+  ],
+  "hearts": 3,
+  "state": 0,
+  "whichLevel": [
+    true,
+    false,
+    true
+  ]
+}
